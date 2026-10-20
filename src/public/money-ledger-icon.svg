@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" role="img" aria-labelledby="title desc">
+  <title id="title">Money Ledger app icon</title>
+  <desc id="desc">An open cream ledger book on a deep emerald rounded square, with a rupee symbol formed in negative space and a mint accent line.</desc>
+  <!-- Background -->
+  <rect width="1024" height="1024" rx="190" fill="#0F5C4D"/>
+
+  <!-- Open book: left and right pages -->
+  <path fill="#F5F7F4" d="
+    M172 273
+    C172 249 190 231 216 229
+    C319 218 422 241 474 291
+    C493 310 503 333 507 356
+    L507 797
+    C463 755 380 736 274 751
+    C229 758 198 766 172 773
+    C150 779 132 762 132 739
+    L132 316
+    C132 293 148 276 172 273 Z"/>
+  <path fill="#F5F7F4" d="
+    M852 273
+    C852 249 834 231 808 229
+    C705 218 602 241 550 291
+    C531 310 521 333 517 356
+    L517 797
+    C561 755 644 736 750 751
+    C795 758 826 766 852 773
+    C874 779 892 762 892 739
+    L892 316
+    C892 293 876 276 852 273 Z"/>
+
+  <!-- Page edge / lower book contours -->
+  <path d="M172 704 C279 680 421 703 478 778" fill="none" stroke="#0F5C4D" stroke-width="17" stroke-linecap="round"/>
+  <path d="M852 704 C745 680 603 703 546 778" fill="none" stroke="#0F5C4D" stroke-width="17" stroke-linecap="round"/>
+
+  <!-- Page lines -->
+  <g fill="none" stroke="#0F5C4D" stroke-width="25" stroke-linecap="round">
+    <path d="M223 357 L328 386"/>
+    <path d="M223 435 L343 469"/>
+    <path d="M223 583 L374 625"/>
+    <path d="M223 657 L374 699"/>
+    <path d="M801 357 L696 386"/>
+    <path d="M801 435 L681 469"/>
+    <path d="M801 583 L650 625"/>
+    <path d="M801 657 L650 699"/>
+  </g>
+  <path d="M223 509 L374 551" fill="none" stroke="#4FD1B0" stroke-width="25" stroke-linecap="round"/>
+
+  <!-- Rupee glyph cutout, represented in the background color -->
+  <path fill="#0F5C4D" d="
+    M350 326
+    H674
+    L646 367
+    H548
+    C570 381 584 403 589 429
+    H652
+    L625 470
+    H586
+    C576 510 551 537 510 548
+    L583 665
+    L529 704
+    L439 561
+    C431 548 426 537 426 521
+    V505
+    C466 505 487 493 495 470
+    H386
+    L359 429
+    H494
+    C487 403 465 388 431 388
+    H391
+    Z"/>
+</svg>
